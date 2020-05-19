@@ -18,12 +18,12 @@ ItemDisplay[hp3]:
 //
 //UNHIDDEN POTIONS
 //
-ItemDisplay[hp4]: %RED%I%WHITE%HP 4
-ItemDisplay[hp5]: %RED%I%WHITE%HP 5
-ItemDisplay[mp2]: %BLUE%I%WHITE%MP 2
-ItemDisplay[mp3]: %BLUE%I%WHITE%MP 3
-ItemDisplay[mp4]: %BLUE%I%WHITE%MP 4
-ItemDisplay[mp5]: %BLUE%I%WHITE%MP 5
+ItemDisplay[hp4]: %RED%I%WHITE%HP%RED%I%WHITE% 4
+ItemDisplay[hp5]: %RED%I%WHITE%HP%RED%I%WHITE% 5
+ItemDisplay[mp2]: %BLUE%I%WHITE%MP%BLUE%I%WHITE% 2
+ItemDisplay[mp3]: %BLUE%I%WHITE%MP%BLUE%I%WHITE% 3
+ItemDisplay[mp4]: %BLUE%I%WHITE%MP%BLUE%I%WHITE% 4
+ItemDisplay[mp5]: %BLUE%I%WHITE%MP%BLUE%I%WHITE% 5
 ItemDisplay[rvs]: %PURPLE%I%WHITE%35%%PURPLE%I%WHITE%
 ItemDisplay[rvl]: %PURPLE%I%WHITE%70%%PURPLE%I%WHITE%
 //
@@ -122,8 +122,6 @@ ItemDisplay[jew]: KLEJNOT
 ItemDisplay[aq2]: STRZALY
 ItemDisplay[cq2]: BOLTY
 //
-
-//
 // ITEMS QUEST
 //
 ItemDisplay[box]: %RED% KOSTKA HORADRIMOW
@@ -138,18 +136,13 @@ ItemDisplay[hst]: %RED% LASKA HORADRIMOW
 ItemDisplay[j34]: %RED% JADEITOWA FIGURKA
 ItemDisplay[g34]: %RED% ZLOTY PTAK
 ItemDisplay[xyz]: %RED% MIKSTURA ZYCIA
-ItemDisplay[j34]: %RED% JADEITOWA FIGURKA
-ItemDisplay[j34]: %RED% JADEITOWA FIGURKA
-ItemDisplay[j34]: %RED% JADEITOWA FIGURKA
-ItemDisplay[j34]: %RED% JADEITOWA FIGURKA
-
-
-
-
+ItemDisplay[g33]: %RED% GIDBINN
+ItemDisplay[qey]: %RED% OKO KHALIMA
+ItemDisplay[qhr]: %RED% SERCE KHALIMA
+ItemDisplay[qbr]: %RED% MOZG KHALIMA
+ItemDisplay[qf1]: %RED% KORBACZ KHALIMA
+ItemDisplay[qf2]: %RED% WOLA KHALIMA
+ItemDisplay[bbb]: %RED% KSIEGA LAM ESENA
+ItemDisplay[hfh]: %RED% MLOT Z PIEKIELNEJ KUZNI
+ItemDisplay[QBR]: %RED% ZWOJ ODPORNOSCI
 //
-
-
-
-
-
-
