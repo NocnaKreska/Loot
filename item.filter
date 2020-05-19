@@ -8,6 +8,7 @@ ItemDisplay[isc]:
 ItemDisplay[vps]:
 ItemDisplay[yps]:
 ItemDisplay[key]:
+ItemDisplay[wms]:
 //
 //HIDDEN POTIONS
 //
@@ -144,5 +145,4 @@ ItemDisplay[qf1]: %RED% KORBACZ KHALIMA
 ItemDisplay[qf2]: %RED% WOLA KHALIMA
 ItemDisplay[bbb]: %RED% KSIEGA LAM ESENA
 ItemDisplay[hfh]: %RED% MLOT Z PIEKIELNEJ KUZNI
-ItemDisplay[QBR]: %RED% ZWOJ ODPORNOSCI
 //
