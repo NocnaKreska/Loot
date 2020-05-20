@@ -115,6 +115,41 @@ ItemDisplay[sku]:%ORANGE% CZASZKA 3
 ItemDisplay[skl]:%ORANGE% CZASZKA 4
 ItemDisplay[skz]:%ORANGE% CZASZKA 5
 //
+//RUNE
+ItemDisplay[r01]:%WHITE%[ - ]%ORANGE%<RUNA EL>%WHITE%[eld] - %ORANGE%[1]
+ItemDisplay[r02]:%WHITE%[el]%ORANGE%<RUNA ELD>%WHITE%[tir] - %ORANGE%[2]
+ItemDisplay[r03]:%WHITE%[eld]%ORANGE%<RUNA TIR>%WHITE%[nef] - %ORANGE%[3]
+ItemDisplay[r04]:%WHITE%[tir]%ORANGE%<RUNA NEF>%WHITE%[eth] - %ORANGE%[4]
+ItemDisplay[r05]:%WHITE%[nef]%ORANGE%<RUNA ETH>%WHITE%[ith] - %ORANGE%[5]
+ItemDisplay[r06]:%WHITE%[eth]%ORANGE%<RUNA ITH>%WHITE%[tal] - %ORANGE%[6]
+ItemDisplay[r07]:%WHITE%[ith]%ORANGE%<RUNA TAL>%WHITE%[ral] - %ORANGE%[7]
+ItemDisplay[r08]:%WHITE%[tal]%ORANGE%<RUNA RAL>%WHITE%[ort] - %ORANGE%[8]
+ItemDisplay[r09]:%WHITE%[ral]%ORANGE%<RUNA ORT>%WHITE%[thul] - %ORANGE%[9]
+ItemDisplay[r10]:%WHITE%[ort]%ORANGE%<RUNA THUL>%WHITE%[amn] - %ORANGE%[10]
+ItemDisplay[r11]:%WHITE%[thul]%ORANGE%<RUNA AMN>%WHITE%[sol] - %ORANGE%[11]
+ItemDisplay[r12]:%WHITE%[amn]%ORANGE%<RUNA SOL>%WHITE%[shael] - %ORANGE%[12]
+ItemDisplay[r13]:%WHITE%[sol]%ORANGE%<RUNA SHAEL>%WHITE%[dol] - %ORANGE%[13]
+ItemDisplay[r14]:%WHITE%[shael]%ORANGE%<RUNA DOL>%WHITE%[hel] - %ORANGE%[14]
+ItemDisplay[r15]:%WHITE%[dol]%ORANGE%<RUNA HEL>%WHITE%[lo] - %ORANGE%[15]
+ItemDisplay[r16]:%WHITE%[hel]%ORANGE%<RUNA LO>%WHITE%[lum] - %ORANGE%[16]
+ItemDisplay[r17]:%WHITE%[lo]%ORANGE%<RUNA LUM>%WHITE%[ko] - %ORANGE%[17]
+ItemDisplay[r18]:%WHITE%[lum]%ORANGE%<RUNA KO>%WHITE%[fal] - %ORANGE%[18]
+ItemDisplay[r19]:%WHITE%[ko]%ORANGE%<RUNA FAL>%WHITE%[lem] - %ORANGE%[19]
+ItemDisplay[r20]:%WHITE%[fal]%ORANGE%<RUNA LEM>%WHITE%[pul] - %ORANGE%[20]
+ItemDisplay[r21]:%WHITE%[lem]%ORANGE%<RUNA PUL>%WHITE%[um] - %ORANGE%[21]
+ItemDisplay[r22]:%WHITE%[pul]%ORANGE%<RUNA UM>%WHITE%[mal] - %ORANGE%[22]
+ItemDisplay[r23]:%WHITE%[um]%ORANGE%<RUNA MAL>%WHITE%[ist] - %ORANGE%[23]
+ItemDisplay[r24]:%WHITE%[mal]%ORANGE%<RUNA IST>%WHITE%[gul] - %ORANGE%[24]
+ItemDisplay[r25]:%WHITE%[ist]%ORANGE%<RUNA GUL>%WHITE%[vex] - %ORANGE%[25]
+ItemDisplay[r26]:%WHITE%[gul]%ORANGE%<RUNA VEX>%WHITE%[ohm] - %ORANGE%[26]
+ItemDisplay[r27]:%WHITE%[vex]%ORANGE%<RUNA OHM>%WHITE%[lo] - %ORANGE%[27]
+ItemDisplay[r28]:%WHITE%[ohm]%ORANGE%<RUNA LO>%WHITE%[sur] - %ORANGE%[28]
+ItemDisplay[r29]:%WHITE%[lo]%ORANGE%<RUNA SUR>%WHITE%[ber] - %ORANGE%[29]
+ItemDisplay[r30]:%WHITE%[sur]%ORANGE%<RUNA BER>%WHITE%[jah] - %ORANGE%[30]
+ItemDisplay[r31]:%WHITE%[ber]%ORANGE%<RUNA JAH>%WHITE%[cham] - %ORANGE%[31]
+ItemDisplay[r32]:%WHITE%[jah]%ORANGE%<RUNA CHAM>%WHITE%[zod] - %ORANGE%[32]
+ItemDisplay[r33]:%WHITE%[cham]%ORANGE%<RUNA ZOD>%WHITE%[ - ] - %ORANGE%[33]
+//
 ItemDisplay[cm1]:%DGREEN%(MALY TALIZMAN)
 ItemDisplay[cm2]:%DGREEN%(SREDNI TALIZMAN)
 ItemDisplay[cm3]:%DGREEN%(DUZY TALIZMAN)
