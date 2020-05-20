@@ -115,9 +115,9 @@ ItemDisplay[sku]:%ORANGE% CZASZKA 3
 ItemDisplay[skl]:%ORANGE% CZASZKA 4
 ItemDisplay[skz]:%ORANGE% CZASZKA 5
 //
-ItemDisplay[cm1]:MALY TALIZMAN
-ItemDisplay[cm2]:SREDNI TALIZMAN
-ItemDisplay[cm3]:DUZY TALIZMAN
+ItemDisplay[cm1]:%DGREEN%(MALY TALIZMAN)
+ItemDisplay[cm2]:%DGREEN%(SREDNI TALIZMAN)
+ItemDisplay[cm3]:%DGREEN%(DUZY TALIZMAN)
 //
 ItemDisplay[rin]:PIERSCIEN
 ItemDisplay[amu]:AMULET
