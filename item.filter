@@ -1,5 +1,8 @@
 //Polish Loot Filter
 //
+//HIDDEN GOLD
+//
+ItemDisplay[GOLD<1000]:
 //
 //HIDDEN SCROLLS, SUPPLE.
 //
