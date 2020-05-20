@@ -22,109 +22,109 @@ ItemDisplay[hp3]:
 //
 //UNHIDDEN POTIONS
 //
-ItemDisplay[hp4]: %RED%I%WHITE%HP%RED%I%WHITE% 4
-ItemDisplay[hp5]: %RED%I%WHITE%HP%RED%I%WHITE% 5
-ItemDisplay[mp2]: %BLUE%I%WHITE%MP%BLUE%I%WHITE% 2
-ItemDisplay[mp3]: %BLUE%I%WHITE%MP%BLUE%I%WHITE% 3
-ItemDisplay[mp4]: %BLUE%I%WHITE%MP%BLUE%I%WHITE% 4
-ItemDisplay[mp5]: %BLUE%I%WHITE%MP%BLUE%I%WHITE% 5
-ItemDisplay[rvs]: %PURPLE%I%WHITE%35%%PURPLE%I%WHITE%
-ItemDisplay[rvl]: %PURPLE%I%WHITE%70%%PURPLE%I%WHITE%
+ItemDisplay[hp4]:%RED%I%WHITE%HP%RED%I%WHITE% 4
+ItemDisplay[hp5]:%RED%I%WHITE%HP%RED%I%WHITE% 5
+ItemDisplay[mp2]:%BLUE%I%WHITE%MP%BLUE%I%WHITE% 2
+ItemDisplay[mp3]:%BLUE%I%WHITE%MP%BLUE%I%WHITE% 3
+ItemDisplay[mp4]:%BLUE%I%WHITE%MP%BLUE%I%WHITE% 4
+ItemDisplay[mp5]:%BLUE%I%WHITE%MP%BLUE%I%WHITE% 5
+ItemDisplay[rvs]:%PURPLE%I%WHITE%35%%PURPLE%I%WHITE%
+ItemDisplay[rvl]:%PURPLE%I%WHITE%70%%PURPLE%I%WHITE%
 //
 //ITEM QUALITY
 //
-ItemDisplay[UNI]: %RED% ($%PRICE%) [%SOCKETS%] %NAME%
-ItemDisplay[SET]: ($%PRICE%) [%SOCKETS%] %NAME%
+ItemDisplay[UNI]:%RED% ($%PRICE%) %NAME%
+ItemDisplay[SET]:($%PRICE%) %NAME%
 //
 //CLASS SPECIFIC ITEM
 //
-ItemDisplay[CL1]: %PURPLE% ($%PRICE%) [%SOCKETS%] HELM DRUID
-ItemDisplay[CL2]: %PURPLE% ($%PRICE%) [%SOCKETS%] HELM BARBARZYNCY
-ItemDisplay[CL3]: %PURPLE% ($%PRICE%) [%SOCKETS%] TARCZA PALADYNA
-ItemDisplay[CL4]: %PURPLE% ($%PRICE%) [%SOCKETS%] TARCZA NEKROMANTY
-ItemDisplay[CL6]: %PURPLE% ($%PRICE%) [%SOCKETS%] KULA CZARODZIEJKI
-ItemDisplay[CL5]: ($%PRICE%) [%SOCKETS%] PAZURY ZABOJCZYNI
+ItemDisplay[CL1]:%PURPLE%($%PRICE%) HELM DRUID %GOLD%[%SOCKETS%]
+ItemDisplay[CL2]:%PURPLE%($%PRICE%) HELM BARBARZYNCY %GOLD%[%SOCKETS%]
+ItemDisplay[CL3]:%PURPLE%($%PRICE%) TARCZA PALADYNA %GOLD%[%SOCKETS%]
+ItemDisplay[CL4]:%PURPLE%($%PRICE%) TARCZA NEKROMANTY %GOLD%[%SOCKETS%]
+ItemDisplay[CL6]:%PURPLE%($%PRICE%) KULA CZARODZIEJKI %GOLD%[%SOCKETS%]
+ItemDisplay[CL5]:($%PRICE%) PAZURY ZABOJCZYNI %GOLD%[%SOCKETS%]
 //
 //WEAPON GROUPS
 //
-ItemDisplay[WP11]: %PURPLE% ($%PRICE%) [%SOCKETS%] LASKA
-ItemDisplay[WP12]: %PURPLE% ($%PRICE%) [%SOCKETS%] ROZDZKA
-ItemDisplay[WP13]: %PURPLE% ($%PRICE%) [%SOCKETS%] BERLO
-ItemDisplay[WP1]: ($%PRICE%) [%SOCKETS%] TOPOR
-ItemDisplay[WP2]: ($%PRICE%) [%SOCKETS%] MACZUGA
-ItemDisplay[WP3]: ($%PRICE%) [%SOCKETS%] MIECZ
-ItemDisplay[WP4]: ($%PRICE%) [%SOCKETS%] SZTYLETY
-ItemDisplay[WP5]: ($%PRICE%) [%SOCKETS%] RZUCANA
-ItemDisplay[WP6]: ($%PRICE%) [%SOCKETS%] OSZCZEP
-ItemDisplay[WP7]: ($%PRICE%) [%SOCKETS%] WLOCZNIA
-ItemDisplay[WP8]: ($%PRICE%) [%SOCKETS%] DRZEWNA
-ItemDisplay[WP9]: ($%PRICE%) [%SOCKETS%] LUK
-ItemDisplay[WP10]: ($%PRICE%)[%SOCKETS%] KUSZA
+ItemDisplay[WP11]:%PURPLE%($%PRICE%) LASKA %GOLD%[%SOCKETS%]
+ItemDisplay[WP12]:%PURPLE%($%PRICE%) ROZDZKA %GOLD%[%SOCKETS%]
+ItemDisplay[WP13]:%PURPLE%($%PRICE%) BERLO %GOLD%[%SOCKETS%]
+ItemDisplay[WP1]:($%PRICE%) TOPOR %GOLD%[%SOCKETS%]
+ItemDisplay[WP2]:($%PRICE%) MACZUGA %GOLD%[%SOCKETS%]
+ItemDisplay[WP3]:($%PRICE%) MIECZ %GOLD%[%SOCKETS%]
+ItemDisplay[WP4]:($%PRICE%) SZTYLETY %GOLD%[%SOCKETS%]
+ItemDisplay[WP5]:($%PRICE%) RZUCANA %GOLD%[%SOCKETS%]
+ItemDisplay[WP6]:($%PRICE%) OSZCZEP %GOLD%[%SOCKETS%]
+ItemDisplay[WP7]:($%PRICE%) WLOCZNIA %GOLD%[%SOCKETS%]
+ItemDisplay[WP8]:($%PRICE%) DRZEWNA %GOLD%[%SOCKETS%]
+ItemDisplay[WP9]:($%PRICE%) LUK %GOLD%[%SOCKETS%]
+ItemDisplay[WP10]:($%PRICE%) KUSZA %GOLD%[%SOCKETS%] 
 //
 //ARMOR GROUPS
 //
-ItemDisplay[EQ1]: ($%PRICE%) [%SOCKETS%] HELM
-ItemDisplay[EQ2]: ($%PRICE%) [%SOCKETS%] ZBROJA
-ItemDisplay[EQ3]: ($%PRICE%) [%SOCKETS%] TARCZA
-ItemDisplay[EQ4]: ($%PRICE%) [%SOCKETS%] REKAWICE
-ItemDisplay[EQ5]: ($%PRICE%) [%SOCKETS%] BUTY
-ItemDisplay[EQ6]: ($%PRICE%) [%SOCKETS%] PAS
-ItemDisplay[EQ7]: ($%PRICE%) [%SOCKETS%] KOLKA
+ItemDisplay[EQ1]:($%PRICE%) HELM %GOLD%[%SOCKETS%]
+ItemDisplay[EQ2]:($%PRICE%) ZBROJA %GOLD%[%SOCKETS%]
+ItemDisplay[EQ3]:($%PRICE%) TARCZA %GOLD%[%SOCKETS%]
+ItemDisplay[EQ4]:($%PRICE%) REKAWICE %GOLD%[%SOCKETS%]
+ItemDisplay[EQ5]:($%PRICE%) BUTY %GOLD%[%SOCKETS%] 
+ItemDisplay[EQ6]:($%PRICE%) PAS %GOLD%[%SOCKETS%]
+ItemDisplay[EQ7]:($%PRICE%) KOLKA %GOLD%[%SOCKETS%]
 //
 //ITEM CODEES
 //
-ItemDisplay[gcv]: %ORANGE% AMETYST 1
-ItemDisplay[gfv]: %ORANGE% AMETYST 2
-ItemDisplay[gsv]: %ORANGE% AMETYST 3
-ItemDisplay[gzv]: %ORANGE% AMETYST 4
-ItemDisplay[gpv]: %ORANGE% AMETYST 5
+ItemDisplay[gcv]:%ORANGE% AMETYST 1
+ItemDisplay[gfv]:%ORANGE% AMETYST 2
+ItemDisplay[gsv]:%ORANGE% AMETYST 3
+ItemDisplay[gzv]:%ORANGE% AMETYST 4
+ItemDisplay[gpv]:%ORANGE% AMETYST 5
 //
-ItemDisplay[gcy]: %ORANGE% TOPAZ 1
-ItemDisplay[gfy]: %ORANGE% TOPAZ 2
-ItemDisplay[gsy]: %ORANGE% TOPAZ 3
-ItemDisplay[gly]: %ORANGE% TOPAZ 4
-ItemDisplay[gpy]: %ORANGE% TOPAZ 5
+ItemDisplay[gcy]:%ORANGE%TOPAZ 1
+ItemDisplay[gfy]:%ORANGE%TOPAZ 2
+ItemDisplay[gsy]:%ORANGE%TOPAZ 3
+ItemDisplay[gly]:%ORANGE%TOPAZ 4
+ItemDisplay[gpy]:%ORANGE%TOPAZ 5
 //
-ItemDisplay[gcb]: %ORANGE% SZAFIR 1
-ItemDisplay[gfb]: %ORANGE% SZAFIR 2
-ItemDisplay[gsb]: %ORANGE% SZAFIR 3
-ItemDisplay[glb]: %ORANGE% SZAFIR 4
-ItemDisplay[gpb]: %ORANGE% SZAFIR 5
+ItemDisplay[gcb]:%ORANGE% SZAFIR 1
+ItemDisplay[gfb]:%ORANGE% SZAFIR 2
+ItemDisplay[gsb]:%ORANGE% SZAFIR 3
+ItemDisplay[glb]:%ORANGE% SZAFIR 4
+ItemDisplay[gpb]:%ORANGE% SZAFIR 5
 //
-ItemDisplay[gcg]: %ORANGE% SZMARAGD 1
-ItemDisplay[gfg]: %ORANGE% SZMARAGD 2
-ItemDisplay[gsg]: %ORANGE% SZMARGAD 3
-ItemDisplay[glg]: %ORANGE% SZMARAGD 4
-ItemDisplay[pgp]: %ORANGE% SZMARAGD 5
+ItemDisplay[gcg]:%ORANGE% SZMARAGD 1
+ItemDisplay[gfg]:%ORANGE% SZMARAGD 2
+ItemDisplay[gsg]:%ORANGE% SZMARGAD 3
+ItemDisplay[glg]:%ORANGE% SZMARAGD 4
+ItemDisplay[pgp]:%ORANGE% SZMARAGD 5
 //
-ItemDisplay[gcr]: %ORANGE% RUBIN 1
-ItemDisplay[gfr]: %ORANGE% RUBIN 2
-ItemDisplay[gsr]: %ORANGE% RUBIN 3
-ItemDisplay[glr]: %ORANGE% RUBIN 4
-ItemDisplay[gpr]: %ORANGE% RUBIN 5
+ItemDisplay[gcr]:%ORANGE% RUBIN 1
+ItemDisplay[gfr]:%ORANGE% RUBIN 2
+ItemDisplay[gsr]:%ORANGE% RUBIN 3
+ItemDisplay[glr]:%ORANGE% RUBIN 4
+ItemDisplay[gpr]:%ORANGE% RUBIN 5
 //
-ItemDisplay[gcw]: %ORANGE% DIAMENT 1
-ItemDisplay[gfw]: %ORANGE% DIAMENT 2
-ItemDisplay[gsw]: %ORANGE% DIAMENT 3
-ItemDisplay[glw]: %ORANGE% DIAMENT 4
-ItemDisplay[gpw]: %ORANGE% DIAMENT 5
+ItemDisplay[gcw]:%ORANGE% DIAMENT 1
+ItemDisplay[gfw]:%ORANGE% DIAMENT 2
+ItemDisplay[gsw]:%ORANGE% DIAMENT 3
+ItemDisplay[glw]:%ORANGE% DIAMENT 4
+ItemDisplay[gpw]:%ORANGE% DIAMENT 5
 //
-ItemDisplay[skc]: %ORANGE% CZASZKA 1
-ItemDisplay[skf]: %ORANGE% CZASZKA 2
-ItemDisplay[sku]: %ORANGE% CZASZKA 3
-ItemDisplay[skl]: %ORANGE% CZASZKA 4
-ItemDisplay[skz]: %ORANGE% CZASZKA 5
+ItemDisplay[skc]:%ORANGE% CZASZKA 1
+ItemDisplay[skf]:%ORANGE% CZASZKA 2
+ItemDisplay[sku]:%ORANGE% CZASZKA 3
+ItemDisplay[skl]:%ORANGE% CZASZKA 4
+ItemDisplay[skz]:%ORANGE% CZASZKA 5
 //
-ItemDisplay[cm1]: MALY TALIZMAN
-ItemDisplay[cm2]: SREDNI TALIZMAN
-ItemDisplay[cm3]: DUZY TALIZMAN
+ItemDisplay[cm1]:MALY TALIZMAN
+ItemDisplay[cm2]:SREDNI TALIZMAN
+ItemDisplay[cm3]:DUZY TALIZMAN
 //
-ItemDisplay[rin]: PIERSCIEN
-ItemDisplay[amu]: AMULET
-ItemDisplay[jew]: KLEJNOT
+ItemDisplay[rin]:PIERSCIEN
+ItemDisplay[amu]:AMULET
+ItemDisplay[jew]:KLEJNOT
 //
-ItemDisplay[aq2]: STRZALY
-ItemDisplay[cq2]: BOLTY
+ItemDisplay[aq2]:STRZALY
+ItemDisplay[cq2]:BOLTY
 //
 // ITEMS QUEST
 //
