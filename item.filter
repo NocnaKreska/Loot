@@ -31,12 +31,12 @@ ItemDisplay[mp5]:%BLUE%I%WHITE%MP%BLUE%I%WHITE% 5
 ItemDisplay[rvs]:%PURPLE%I%WHITE%35%%PURPLE%I%WHITE%
 ItemDisplay[rvl]:%PURPLE%I%WHITE%70%%PURPLE%I%WHITE%
 //
-ItemDisplay[opl]:%ORANGE%I%WHITE%mikstura wybuchowa%ORANGE%I%WHITE% 1
-ItemDisplay[opm]:%ORANGE%I%WHITE%mikstura wybuchowa%ORANGE%I%WHITE% 2
-ItemDisplay[ops]:%ORANGE%I%WHITE%mikstura wybuchowa%ORANGE%I%WHITE% 3
-ItemDisplay[gpl]:%DGREEN%I%WHITE%mikstura gazowa%DGREEN%I%WHITE% 1
-ItemDisplay[gpm]:%DGREEN%I%WHITE%mikstura gazowa%DGREEN%I%WHITE% 2
-ItemDisplay[gps]:%DGREEN%I%WHITE%mikstura gazowa%DGREEN%I%WHITE% 3
+ItemDisplay[opl]:($%PRICE%)%ORANGE%I%WHITE%mikstura wybuchowa%ORANGE%I%WHITE% 1
+ItemDisplay[opm]:($%PRICE%)%ORANGE%I%WHITE%mikstura wybuchowa%ORANGE%I%WHITE% 2
+ItemDisplay[ops]:($%PRICE%)%ORANGE%I%WHITE%mikstura wybuchowa%ORANGE%I%WHITE% 3
+ItemDisplay[gpl]:($%PRICE%)%DGREEN%I%WHITE%mikstura gazowa%DGREEN%I%WHITE% 1
+ItemDisplay[gpm]:($%PRICE%)%DGREEN%I%WHITE%mikstura gazowa%DGREEN%I%WHITE% 2
+ItemDisplay[gps]:($%PRICE%)%DGREEN%I%WHITE%mikstura gazowa%DGREEN%I%WHITE% 3
 //
 //ITEM QUALITY
 //
