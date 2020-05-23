@@ -23,7 +23,6 @@ ItemDisplay[hp4]:
 //
 //UNHIDDEN POTIONS
 //
-
 ItemDisplay[hp5]:%RED%I%WHITE%HP%RED%I%WHITE% 5
 ItemDisplay[mp2]:%BLUE%I%WHITE%MP%BLUE%I%WHITE% 2
 ItemDisplay[mp3]:%BLUE%I%WHITE%MP%BLUE%I%WHITE% 3
@@ -45,13 +44,35 @@ ItemDisplay[gpm]:
 ItemDisplay[gps]:
 //($%PRICE%)%DGREEN%I%WHITE%mikstura gazowa%DGREEN%I%WHITE% 3
 //
-//ITEM QUALITY
+//QUEST ITEMS
+//
+ItemDisplay[box]: %RED% KOSTKA HORADRIMOW
+ItemDisplay[bks]: %RED% ZWOJ INIFUSA
+ItemDisplay[mss]: %RED% KAMIEN DUSZY MEFISTA
+ItemDisplay[leg]: %RED% NOGA WIRTA
+ItemDisplay[hdm]: %RED% MALUS HORADRIMUS
+ItemDisplay[ass]: %RED% KSIEGA UMIEJETNOSCI
+ItemDisplay[msf]: %RED% LASKA KROLOW
+ItemDisplay[vip]: %RED% AMULET ZMII
+ItemDisplay[hst]: %RED% LASKA HORADRIMOW
+ItemDisplay[j34]: %RED% JADEITOWA FIGURKA
+ItemDisplay[g34]: %RED% ZLOTY PTAK
+ItemDisplay[xyz]: %RED% MIKSTURA ZYCIA
+ItemDisplay[g33]: %RED% GIDBINN
+ItemDisplay[qey]: %RED% OKO KHALIMA
+ItemDisplay[qhr]: %RED% SERCE KHALIMA
+ItemDisplay[qbr]: %RED% MOZG KHALIMA
+ItemDisplay[qf1]: %RED% KORBACZ KHALIMA
+ItemDisplay[qf2]: %RED% WOLA KHALIMA
+ItemDisplay[bbb]: %RED% KSIEGA LAM ESENA
+ItemDisplay[hfh]: %RED% MLOT Z PIEKIELNEJ KUZNI
+//
+//JEWELRY
 //
 ItemDisplay[rin]:PIERSCIEN%CONTINUE%
 ItemDisplay[amu]:AMULET%CONTINUE%
 ItemDisplay[jew]:KLEJNOT%CONTINUE%
-
-////
+//
 //ONE HAND SWORDS
 //
 ItemDisplay[ssd]: KROTKI MIECZ %CONTINUE%
@@ -118,7 +139,6 @@ ItemDisplay[9ax]: TASAK%CONTINUE%
 ItemDisplay[92a]: BLIZNIACZY TOPOR%CONTINUE%
 ItemDisplay[9mp]: KRUCZA ROHATYNA%CONTINUE%
 ItemDisplay[9wa]: NAGA%CONTINUE%
-
 //
 //TWO-HANDED AXES
 //
@@ -501,6 +521,8 @@ ItemDisplay[ci1]:KORONETKA%CONTINUE%
 ItemDisplay[ci2]:TIARA%CONTINUE%
 ItemDisplay[ci3]:DIADEM %CONTINUE%
 //
+//AMAZON WEAPONS
+//
 ItemDisplay[am1]:ODYNCOWY LUK %CONTINUE%
 ItemDisplay[am2]: PRZESZYWAJACY LUK %CONTINUE%
 ItemDisplay[am3]:DZIEWICZA WLOCZNIA %CONTINUE%
@@ -516,6 +538,8 @@ ItemDisplay[amc]:MATRONI LUK %CONTINUE%
 ItemDisplay[amd]:MATRIACHALNA WLOCZNIA %CONTINUE%
 ItemDisplay[ame]:MATRIACHALNA PIKA %CONTINUE%
 ItemDisplay[amf]:MATRIACHALNY OSZCZEP %CONTINUE%
+//
+//BARBARIAN HELMETS
 //
 ItemDisplay[ba1]:SZCZEKOWY KAPTUR %CONTINUE%
 ItemDisplay[ba2]:ZEBATY HELM %CONTINUE%
@@ -533,6 +557,7 @@ ItemDisplay[bad]:NISZCZYCIELSKI HELM %CONTINUE%
 ItemDisplay[bae]:ZDOBYWCZA KORONA %CONTINUE%
 ItemDisplay[baf]:STRAZNICZA KORONA %CONTINUE%
 //
+//SORCERESS WEAPONS
 //
 ItemDisplay[ob1]:ORLA KULA %CONTINUE%
 ItemDisplay[ob2]: SWIETA KULA %CONTINUE%
@@ -550,6 +575,8 @@ ItemDisplay[obd]:DEMONIE SERCE %CONTINUE%
 ItemDisplay[obe]:WIRUJACA KULA %CONTINUE%
 ItemDisplay[obf]:WYMIAROWY ODLAMEK %CONTINUE%
 //
+//PALADIN SHIELDS
+//
 ItemDisplay[pa1]:TARZA %CONTINUE%
 ItemDisplay[pa2]:RONDELA %CONTINUE%
 ItemDisplay[pa3]:HERALDYCZNA TARCZA %CONTINUE%
@@ -566,8 +593,8 @@ ItemDisplay[pad]:KURASTOWA TARCZA %CONTINUE%
 ItemDisplay[pae]:ZAKARUMSKA TARCZA %CONTINUE%
 ItemDisplay[paf]:WIROTARCZA %CONTINUE%
 //
+//NECROMANCER SHIELDS
 //
-
 ItemDisplay[ne1]:SPREPAROWANA GLOWA %CONTINUE%
 ItemDisplay[ne2]:TRUPIA GLOWA %CONTINUE%
 ItemDisplay[ne3]:SZKIELETOWA GLOWA %CONTINUE%
@@ -584,7 +611,8 @@ ItemDisplay[ned]:CZASZKA NADZORCY%CONTINUE%
 ItemDisplay[nee]:SUKKUBIA CZASZKA %CONTINUE%
 ItemDisplay[nef]:CZASZKA PANA KRWI %CONTINUE%
 //
-
+//ASSASIN WEAPONS
+//
 ItemDisplay[ktr]:KHUTAR %CONTINUE%
 ItemDisplay[wrb]:NARECZNE OSTRZE %CONTINUE%
 ItemDisplay[axf]:NARECZNE TOPORY %CONTINUE%
@@ -607,6 +635,8 @@ ItemDisplay[7lw]:DZIKIE SZPONY %CONTINUE%
 ItemDisplay[7hw]:RUNICZNE SZPONY %CONTINUE%
 ItemDisplay[7qr]:NOŻYCOWY SUWAYYAH %CONTINUE%
 //
+//DRUID PELTS
+//
 ItemDisplay[dr1]:WILCZA GLOWA %CONTINUE%
 ItemDisplay[dr2]:JASTRZEBI HELM %CONTINUE%
 ItemDisplay[dr3]:POROZE %CONTINUE%
@@ -623,8 +653,10 @@ ItemDisplay[drd]:ZIEMNY DUCH %CONTINUE%
 ItemDisplay[dre]:PODNIEBNY DUCH %CONTINUE%
 ItemDisplay[drf]:SENNY DUCH %CONTINUE%
 //
-ItemDisplay[SET]:%GREEN%($%PRICE%) %NAME%
+//ITEM QUALITY CODES
+//
 ItemDisplay[UNI]:%RED%($%PRICE%) %NAME%
+ItemDisplay[SET]:%GREEN%($%PRICE%) %NAME%
 //
 //CLASS SPECIFIC ITEM
 //
@@ -711,7 +743,7 @@ ItemDisplay[WP10 RARE]:%YELLOW%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
 ItemDisplay[WP10 NMAG]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
 ItemDisplay[WP10 ETH]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
 //
-//ARMOR GROUPS SOCKET
+//ARMOR GROUPS
 //
 ItemDisplay[EQ1 INF]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
 ItemDisplay[EQ1 SUP]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
@@ -738,7 +770,7 @@ ItemDisplay[EQ4]:($%PRICE%) %NAME%
 ItemDisplay[EQ5]:($%PRICE%) %NAME%
 ItemDisplay[EQ6]:($%PRICE%) %NAME%
 //
-//ITEM CODEES
+//GEMS
 //
 ItemDisplay[gcv]:%ORANGE% AMETYST 1
 ItemDisplay[gfv]:%ORANGE% AMETYST 2
@@ -782,7 +814,8 @@ ItemDisplay[sku]:%ORANGE% CZASZKA 3
 ItemDisplay[skl]:%ORANGE% CZASZKA 4
 ItemDisplay[skz]:%ORANGE% CZASZKA 5
 //
-//RUNE
+//RUNES
+//
 ItemDisplay[r01]:%WHITE%[ - ]%ORANGE%<RUNA EL>%WHITE%[eld] - %ORANGE%[1]
 ItemDisplay[r02]:%WHITE%[el]%ORANGE%<RUNA ELD>%WHITE%[tir] - %ORANGE%[2]
 ItemDisplay[r03]:%WHITE%[eld]%ORANGE%<RUNA TIR>%WHITE%[nef] - %ORANGE%[3]
@@ -817,35 +850,14 @@ ItemDisplay[r31]:%WHITE%[ber]%ORANGE%<RUNA JAH>%WHITE%[cham] - %ORANGE%[31]
 ItemDisplay[r32]:%WHITE%[jah]%ORANGE%<RUNA CHAM>%WHITE%[zod] - %ORANGE%[32]
 ItemDisplay[r33]:%WHITE%[cham]%ORANGE%<RUNA ZOD>%WHITE%[ - ] - %ORANGE%[33]
 //
+//CHARMS
+//
 ItemDisplay[cm1]:%DGREEN%(MALY TALIZMAN)
 ItemDisplay[cm2]:%DGREEN%(SREDNI TALIZMAN)
 ItemDisplay[cm3]:%DGREEN%(DUZY TALIZMAN)
 //
-
+//AMMO
 //
 ItemDisplay[aq2]:STRZALY
 ItemDisplay[cq2]:BOLTY
-//
-// ITEMS QUEST
-//
-ItemDisplay[box]: %RED% KOSTKA HORADRIMOW
-ItemDisplay[bks]: %RED% ZWOJ INIFUSA
-ItemDisplay[mss]: %RED% KAMIEN DUSZY MEFISTA
-ItemDisplay[leg]: %RED% NOGA WIRTA
-ItemDisplay[hdm]: %RED% MALUS HORADRIMUS
-ItemDisplay[ass]: %RED% KSIEGA UMIEJETNOSCI
-ItemDisplay[msf]: %RED% LASKA KROLOW
-ItemDisplay[vip]: %RED% AMULET ZMII
-ItemDisplay[hst]: %RED% LASKA HORADRIMOW
-ItemDisplay[j34]: %RED% JADEITOWA FIGURKA
-ItemDisplay[g34]: %RED% ZLOTY PTAK
-ItemDisplay[xyz]: %RED% MIKSTURA ZYCIA
-ItemDisplay[g33]: %RED% GIDBINN
-ItemDisplay[qey]: %RED% OKO KHALIMA
-ItemDisplay[qhr]: %RED% SERCE KHALIMA
-ItemDisplay[qbr]: %RED% MOZG KHALIMA
-ItemDisplay[qf1]: %RED% KORBACZ KHALIMA
-ItemDisplay[qf2]: %RED% WOLA KHALIMA
-ItemDisplay[bbb]: %RED% KSIEGA LAM ESENA
-ItemDisplay[hfh]: %RED% MLOT Z PIEKIELNEJ KUZNI
 //
