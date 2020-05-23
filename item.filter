@@ -621,7 +621,7 @@ ItemDisplay[drb]:KRWAWY DUCH %CONTINUE%
 ItemDisplay[drc]:SLONECZNY DUCH %CONTINUE%
 ItemDisplay[drd]:ZIEMNY DUCH %CONTINUE%
 ItemDisplay[dre]:PODNIEBNY DUCH %CONTINUE%
-ItemDisplay[DRF]:SENNY DUCH %CONTINUE%
+ItemDisplay[drf]:SENNY DUCH %CONTINUE%
 //
 ItemDisplay[SET]:%GREEN%($%PRICE%) %NAME%
 ItemDisplay[UNI]:%RED%($%PRICE%) %NAME%
