@@ -716,7 +716,7 @@ ItemDisplay[WP10 ETH]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
 ItemDisplay[EQ1 INF]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
 ItemDisplay[EQ1 SUP]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
 ItemDisplay[EQ1 MAG]:%BLUE%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[EQ1 RARE]:%YELLOW%($%PRICE% )%NAME% %GOLD%[%SOCKETS%]
+ItemDisplay[EQ1 RARE]:%YELLOW%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
 ItemDisplay[EQ1 NMAG]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
 ItemDisplay[EQ1 ETH]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
 //
@@ -737,13 +737,6 @@ ItemDisplay[EQ3 ETH]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
 ItemDisplay[EQ4]:($%PRICE%) %NAME%
 ItemDisplay[EQ5]:($%PRICE%) %NAME%
 ItemDisplay[EQ6]:($%PRICE%) %NAME%
-//
-ItemDisplay[EQ7 INF]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[EQ7 SUP]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[EQ7 MAG]:%BLUE%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[EQ7 RARE]:%YELLOW%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[EQ7 NMAG]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[EQ7 ETH]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
 //
 //ITEM CODEES
 //
