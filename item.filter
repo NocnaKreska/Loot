@@ -19,10 +19,11 @@ ItemDisplay[hp1]:
 ItemDisplay[mp1]:
 ItemDisplay[hp2]:
 ItemDisplay[hp3]:
+ItemDisplay[hp4]:
 //
 //UNHIDDEN POTIONS
 //
-ItemDisplay[hp4]:%RED%I%WHITE%HP%RED%I%WHITE% 4
+
 ItemDisplay[hp5]:%RED%I%WHITE%HP%RED%I%WHITE% 5
 ItemDisplay[mp2]:%BLUE%I%WHITE%MP%BLUE%I%WHITE% 2
 ItemDisplay[mp3]:%BLUE%I%WHITE%MP%BLUE%I%WHITE% 3
@@ -108,7 +109,7 @@ ItemDisplay[gcg]:%ORANGE% SZMARAGD 1
 ItemDisplay[gfg]:%ORANGE% SZMARAGD 2
 ItemDisplay[gsg]:%ORANGE% SZMARGAD 3
 ItemDisplay[glg]:%ORANGE% SZMARAGD 4
-ItemDisplay[pgp]:%ORANGE% SZMARAGD 5
+ItemDisplay[gpg]:%ORANGE% SZMARAGD 5
 //
 ItemDisplay[gcr]:%ORANGE% RUBIN 1
 ItemDisplay[gfr]:%ORANGE% RUBIN 2
