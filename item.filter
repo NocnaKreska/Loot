@@ -654,6 +654,11 @@ ItemDisplay[drd]:ZIEMNY DUCH %CONTINUE%
 ItemDisplay[dre]:PODNIEBNY DUCH %CONTINUE%
 ItemDisplay[drf]:SENNY DUCH %CONTINUE%
 //
+//AMMO
+//
+ItemDisplay[aq2]:STRZALY%CONTINUE%
+ItemDisplay[cq2]:BOLTY%CONTINUE%
+//
 //ITEM QUALITY CODES
 //
 ItemDisplay[UNI]:%RED%($%PRICE%) %NAME%
@@ -856,9 +861,4 @@ ItemDisplay[r33]:%WHITE%[cham]%ORANGE%<RUNA ZOD>%WHITE%[ - ] - %ORANGE%[33]
 ItemDisplay[cm1]:%DGREEN%(MALY TALIZMAN)
 ItemDisplay[cm2]:%DGREEN%(SREDNI TALIZMAN)
 ItemDisplay[cm3]:%DGREEN%(DUZY TALIZMAN)
-//
-//AMMO
-//
-ItemDisplay[aq2]:STRZALY
-ItemDisplay[cq2]:BOLTY
-//
+
