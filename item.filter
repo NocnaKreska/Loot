@@ -2,7 +2,7 @@
 //
 //HIDDEN GOLD
 //
-ItemDisplay[GOLD<1000]:
+ItemDisplay[GOLD<500]:
 //
 //HIDDEN SCROLLS, SUPPLE.
 //
@@ -17,17 +17,23 @@ ItemDisplay[wms]:
 //
 ItemDisplay[hp1]:
 ItemDisplay[mp1]:
-ItemDisplay[hp2]:
-ItemDisplay[hp3]:
-ItemDisplay[hp4]:
 //
-//UNHIDDEN POTIONS
+//HEALTH
 //
+ItemDisplay[hp2]:%RED%I%WHITE%HP%RED%I%WHITE% 2
+ItemDisplay[hp3]:%RED%I%WHITE%HP%RED%I%WHITE% 3
+ItemDisplay[hp4]:%RED%I%WHITE%HP%RED%I%WHITE% 4
 ItemDisplay[hp5]:%RED%I%WHITE%HP%RED%I%WHITE% 5
+//
+//MANA
+//
 ItemDisplay[mp2]:%BLUE%I%WHITE%MP%BLUE%I%WHITE% 2
 ItemDisplay[mp3]:%BLUE%I%WHITE%MP%BLUE%I%WHITE% 3
 ItemDisplay[mp4]:%BLUE%I%WHITE%MP%BLUE%I%WHITE% 4
 ItemDisplay[mp5]:%BLUE%I%WHITE%MP%BLUE%I%WHITE% 5
+//
+//FULL
+//
 ItemDisplay[rvs]:%PURPLE%I%WHITE%35%%PURPLE%I%WHITE%
 ItemDisplay[rvl]:%PURPLE%I%WHITE%70%%PURPLE%I%WHITE%
 //
@@ -522,7 +528,7 @@ ItemDisplay[ci1]:KORONETKA%CONTINUE%
 ItemDisplay[ci2]:TIARA%CONTINUE%
 ItemDisplay[ci3]:DIADEM%CONTINUE%
 //
-//AMAZON WEAPONS
+//AMAZON
 //
 ItemDisplay[am1]:ODYNCOWY LUK%CONTINUE%
 ItemDisplay[am2]:PRZESZYWAJACY LUK%CONTINUE%
@@ -540,7 +546,7 @@ ItemDisplay[amd]:MATRIACHALNA WLOCZNIA%CONTINUE%
 ItemDisplay[ame]:MATRIACHALNA PIKA%CONTINUE%
 ItemDisplay[amf]:MATRIACHALNY OSZCZEP%CONTINUE%
 //
-//BARBARIAN HELMETS
+//BARBARIAN
 //
 ItemDisplay[ba1]:SZCZEKOWY KAPTUR%CONTINUE%
 ItemDisplay[ba2]:ZEBATY HELM%CONTINUE%
@@ -558,7 +564,7 @@ ItemDisplay[bad]:NISZCZYCIELSKI HELM%CONTINUE%
 ItemDisplay[bae]:ZDOBYWCZA KORONA%CONTINUE%
 ItemDisplay[baf]:STRAZNICZA KORONA%CONTINUE%
 //
-//SORCERESS WEAPONS
+//SORCERESS
 //
 ItemDisplay[ob1]:ORLA KULA%CONTINUE%
 ItemDisplay[ob2]:SWIETA KULA%CONTINUE%
@@ -576,7 +582,7 @@ ItemDisplay[obd]:DEMONIE SERCE%CONTINUE%
 ItemDisplay[obe]:WIRUJACA KULA%CONTINUE%
 ItemDisplay[obf]:WYMIAROWY ODLAMEK%CONTINUE%
 //
-//PALADIN SHIELDS
+//PALADIN
 //
 ItemDisplay[pa1]:TARZA%CONTINUE%
 ItemDisplay[pa2]:RONDELA%CONTINUE%
@@ -594,7 +600,7 @@ ItemDisplay[pad]:KURASTOWA TARCZA%CONTINUE%
 ItemDisplay[pae]:ZAKARUMSKA TARCZA%CONTINUE%
 ItemDisplay[paf]:WIROTARCZA%CONTINUE%
 //
-//NECROMANCER SHIELDS
+//NECROMANCER
 //
 ItemDisplay[ne1]:SPREPAROWANA GLOWA%CONTINUE%
 ItemDisplay[ne2]:TRUPIA GLOWA%CONTINUE%
@@ -612,7 +618,7 @@ ItemDisplay[ned]:CZASZKA NADZORCY%CONTINUE%
 ItemDisplay[nee]:SUKKUBIA CZASZKA%CONTINUE%
 ItemDisplay[nef]:CZASZKA PANA KRWI%CONTINUE%
 //
-//ASSASIN WEAPONS
+//ASSASIN
 //
 ItemDisplay[ktr]:KHUTAR%CONTINUE%
 ItemDisplay[wrb]:NARECZNE OSTRZE%CONTINUE%
@@ -636,7 +642,7 @@ ItemDisplay[7lw]:DZIKIE SZPONY%CONTINUE%
 ItemDisplay[7hw]:RUNICZNE SZPONY%CONTINUE%
 ItemDisplay[7qr]:NOŻYCOWY SUWAYYAH%CONTINUE%
 //
-//DRUID PELTS
+//DRUID
 //
 ItemDisplay[dr1]:WILCZA GLOWA%CONTINUE%
 ItemDisplay[dr2]:JASTRZEBI HELM%CONTINUE%
@@ -659,130 +665,34 @@ ItemDisplay[drf]:SENNY DUCH%CONTINUE%
 ItemDisplay[aq2]:STRZALY%CONTINUE%
 ItemDisplay[cq2]:BOLTY%CONTINUE%
 //
-//ITEM QUALITY CODES
+//ITEM QUALITY
 //
 ItemDisplay[UNI]:%RED%($%PRICE%) %NAME%
 ItemDisplay[SET]:%GREEN%($%PRICE%) %NAME%
 //
-//CLASS SPECIFIC ITEM
+//CLASS WITH SOCKETS
 //
-ItemDisplay[CL1]:%PURPLE%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[CL2]:%PURPLE%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[CL3]:%PURPLE%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[CL4]:%PURPLE%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[CL7]:%PURPLE%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[CL5]:%PURPLE%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[CL6]:%PURPLE%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP11]:%PURPLE%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP12]:%PURPLE%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP13]:%PURPLE%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
+ItemDisplay[(CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7 OR WP11 OR WP12 OR WP13) SOCK>0]:%PURPLE%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
 //
-//WEAPON GROUPS
+//CLASS WITHOUT SOCKETS
 //
-ItemDisplay[WP1 INF]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP1 SUP]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP1 MAG]:%BLUE%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP1 RARE]:%YELLOW%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP1 NMAG]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP1 ETH]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
+ItemDisplay[CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7 OR WP11 OR WP12 OR WP13]:%PURPLE%($%PRICE%) %NAME% %GOLD%
 //
-ItemDisplay[WP2 INF]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP2 SUP]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP2 MAG]:%BLUE%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP2 RARE]:%YELLOW%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP2 NMAG]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP2 ETH]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
+//WEAPON AND ARMOR WITH SOCKETS
 //
-ItemDisplay[WP3 INF]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP3 SUP]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP3 MAG]:%BLUE%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP3 RARE]:%YELLOW%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP3 NMAG]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP3 ETH]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
+ItemDisplay[(WEAPON OR ARMOR) SOCK>0]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
 //
-ItemDisplay[WP4 INF]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP4 SUP]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP4 MAG]:%BLUE%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP4 RARE]:%YELLOW%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP4 NMAG]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP4 ETH]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
+//WEAPON AND ARMOR WITHOUT SOCKETS
 //
-ItemDisplay[WP5 INF]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP5 SUP]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP5 MAG]:%BLUE%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP5 RARE]:%YELLOW%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP5 NMAG]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP5 ETH]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-//
-ItemDisplay[WP6 INF]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP6 SUP]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP6 MAG]:%BLUE%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP6 RARE]:%YELLOW%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP6 NMAG]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP6 ETH]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-//
-ItemDisplay[WP7 INF]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP7 SUP]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP7 MAG]:%BLUE%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP7 RARE]:%YELLOW%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP7 NMAG]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP7 ETH]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-//
-ItemDisplay[WP8 INF]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP8 SUP]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP8 MAG]:%BLUE%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP8 RARE]:%YELLOW%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP8 NMAG]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP8 ETH]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-//
-ItemDisplay[WP9 INF]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP9 SUP]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP9 MAG]:%BLUE%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP9 RARE]:%YELLOW%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP9 NMAG]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP9 ETH]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-//
-ItemDisplay[WP10 INF]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP10 SUP]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP10 MAG]:%BLUE%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP10 RARE]:%YELLOW%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP10 NMAG]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[WP10 ETH]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-//
-//ARMOR GROUPS
-//
-ItemDisplay[EQ1 INF]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[EQ1 SUP]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[EQ1 MAG]:%BLUE%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[EQ1 RARE]:%YELLOW%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[EQ1 NMAG]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[EQ1 ETH]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-//
-ItemDisplay[EQ2 INF]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[EQ2 SUP]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[EQ2 MAG]:%BLUE%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[EQ2 RARE]:%YELLOW%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[EQ2 NMAG]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[EQ2 ETH]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-//
-ItemDisplay[EQ3 INF]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[EQ3 SUP]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[EQ3 MAG]:%BLUE%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[EQ3 RARE]:%YELLOW%($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[EQ3 NMAG]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-ItemDisplay[EQ3 ETH]:($%PRICE%) %NAME% %GOLD%[%SOCKETS%]
-//
-ItemDisplay[EQ4]:($%PRICE%) %NAME%
-ItemDisplay[EQ5]:($%PRICE%) %NAME%
-ItemDisplay[EQ6]:($%PRICE%) %NAME%
+ItemDisplay[WEAPON OR ARMOR]:($%PRICE%) %NAME% %GOLD%
 //
 //GEMS
 //
-ItemDisplay[gcv]:%ORANGE% AMETYST 1
-ItemDisplay[gfv]:%ORANGE% AMETYST 2
-ItemDisplay[gsv]:%ORANGE% AMETYST 3
-ItemDisplay[gzv]:%ORANGE% AMETYST 4
-ItemDisplay[gpv]:%ORANGE% AMETYST 5
+ItemDisplay[gcv]:%ORANGE%AMETYST 1
+ItemDisplay[gfv]:%ORANGE%AMETYST 2
+ItemDisplay[gsv]:%ORANGE%AMETYST 3
+ItemDisplay[gzv]:%ORANGE%AMETYST 4
+ItemDisplay[gpv]:%ORANGE%AMETYST 5
 //
 ItemDisplay[gcy]:%ORANGE%TOPAZ 1
 ItemDisplay[gfy]:%ORANGE%TOPAZ 2
@@ -790,75 +700,75 @@ ItemDisplay[gsy]:%ORANGE%TOPAZ 3
 ItemDisplay[gly]:%ORANGE%TOPAZ 4
 ItemDisplay[gpy]:%ORANGE%TOPAZ 5
 //
-ItemDisplay[gcb]:%ORANGE% SZAFIR 1
-ItemDisplay[gfb]:%ORANGE% SZAFIR 2
-ItemDisplay[gsb]:%ORANGE% SZAFIR 3
-ItemDisplay[glb]:%ORANGE% SZAFIR 4
-ItemDisplay[gpb]:%ORANGE% SZAFIR 5
+ItemDisplay[gcb]:%ORANGE%SZAFIR 1
+ItemDisplay[gfb]:%ORANGE%SZAFIR 2
+ItemDisplay[gsb]:%ORANGE%SZAFIR 3
+ItemDisplay[glb]:%ORANGE%SZAFIR 4
+ItemDisplay[gpb]:%ORANGE%SZAFIR 5
 //
-ItemDisplay[gcg]:%ORANGE% SZMARAGD 1
-ItemDisplay[gfg]:%ORANGE% SZMARAGD 2
-ItemDisplay[gsg]:%ORANGE% SZMARGAD 3
-ItemDisplay[glg]:%ORANGE% SZMARAGD 4
-ItemDisplay[gpg]:%ORANGE% SZMARAGD 5
+ItemDisplay[gcg]:%ORANGE%SZMARAGD 1
+ItemDisplay[gfg]:%ORANGE%SZMARAGD 2
+ItemDisplay[gsg]:%ORANGE%SZMARGAD 3
+ItemDisplay[glg]:%ORANGE%SZMARAGD 4
+ItemDisplay[gpg]:%ORANGE%SZMARAGD 5
 //
-ItemDisplay[gcr]:%ORANGE% RUBIN 1
-ItemDisplay[gfr]:%ORANGE% RUBIN 2
-ItemDisplay[gsr]:%ORANGE% RUBIN 3
-ItemDisplay[glr]:%ORANGE% RUBIN 4
-ItemDisplay[gpr]:%ORANGE% RUBIN 5
+ItemDisplay[gcr]:%ORANGE%RUBIN 1
+ItemDisplay[gfr]:%ORANGE%RUBIN 2
+ItemDisplay[gsr]:%ORANGE%RUBIN 3
+ItemDisplay[glr]:%ORANGE%RUBIN 4
+ItemDisplay[gpr]:%ORANGE%RUBIN 5
 //
-ItemDisplay[gcw]:%ORANGE% DIAMENT 1
-ItemDisplay[gfw]:%ORANGE% DIAMENT 2
-ItemDisplay[gsw]:%ORANGE% DIAMENT 3
-ItemDisplay[glw]:%ORANGE% DIAMENT 4
-ItemDisplay[gpw]:%ORANGE% DIAMENT 5
+ItemDisplay[gcw]:%ORANGE%DIAMENT 1
+ItemDisplay[gfw]:%ORANGE%DIAMENT 2
+ItemDisplay[gsw]:%ORANGE%DIAMENT 3
+ItemDisplay[glw]:%ORANGE%DIAMENT 4
+ItemDisplay[gpw]:%ORANGE%DIAMENT 5
 //
-ItemDisplay[skc]:%ORANGE% CZASZKA 1
-ItemDisplay[skf]:%ORANGE% CZASZKA 2
-ItemDisplay[sku]:%ORANGE% CZASZKA 3
-ItemDisplay[skl]:%ORANGE% CZASZKA 4
-ItemDisplay[skz]:%ORANGE% CZASZKA 5
+ItemDisplay[skc]:%ORANGE%CZASZKA 1
+ItemDisplay[skf]:%ORANGE%CZASZKA 2
+ItemDisplay[sku]:%ORANGE%CZASZKA 3
+ItemDisplay[skl]:%ORANGE%CZASZKA 4
+ItemDisplay[skz]:%ORANGE%CZASZKA 5
 //
 //RUNES
 //
-ItemDisplay[r01]:%WHITE%[ - ]%ORANGE%<RUNA EL>%WHITE%[eld] - %ORANGE%[1]
-ItemDisplay[r02]:%WHITE%[el]%ORANGE%<RUNA ELD>%WHITE%[tir] - %ORANGE%[2]
-ItemDisplay[r03]:%WHITE%[eld]%ORANGE%<RUNA TIR>%WHITE%[nef] - %ORANGE%[3]
-ItemDisplay[r04]:%WHITE%[tir]%ORANGE%<RUNA NEF>%WHITE%[eth] - %ORANGE%[4]
-ItemDisplay[r05]:%WHITE%[nef]%ORANGE%<RUNA ETH>%WHITE%[ith] - %ORANGE%[5]
-ItemDisplay[r06]:%WHITE%[eth]%ORANGE%<RUNA ITH>%WHITE%[tal] - %ORANGE%[6]
-ItemDisplay[r07]:%WHITE%[ith]%ORANGE%<RUNA TAL>%WHITE%[ral] - %ORANGE%[7]
-ItemDisplay[r08]:%WHITE%[tal]%ORANGE%<RUNA RAL>%WHITE%[ort] - %ORANGE%[8]
-ItemDisplay[r09]:%WHITE%[ral]%ORANGE%<RUNA ORT>%WHITE%[thul] - %ORANGE%[9]
-ItemDisplay[r10]:%WHITE%[ort]%ORANGE%<RUNA THUL>%WHITE%[amn] - %ORANGE%[10]
-ItemDisplay[r11]:%WHITE%[thul]%ORANGE%<RUNA AMN>%WHITE%[sol] - %ORANGE%[11]
-ItemDisplay[r12]:%WHITE%[amn]%ORANGE%<RUNA SOL>%WHITE%[shael] - %ORANGE%[12]
-ItemDisplay[r13]:%WHITE%[sol]%ORANGE%<RUNA SHAEL>%WHITE%[dol] - %ORANGE%[13]
-ItemDisplay[r14]:%WHITE%[shael]%ORANGE%<RUNA DOL>%WHITE%[hel] - %ORANGE%[14]
-ItemDisplay[r15]:%WHITE%[dol]%ORANGE%<RUNA HEL>%WHITE%[lo] - %ORANGE%[15]
-ItemDisplay[r16]:%WHITE%[hel]%ORANGE%<RUNA LO>%WHITE%[lum] - %ORANGE%[16]
-ItemDisplay[r17]:%WHITE%[lo]%ORANGE%<RUNA LUM>%WHITE%[ko] - %ORANGE%[17]
-ItemDisplay[r18]:%WHITE%[lum]%ORANGE%<RUNA KO>%WHITE%[fal] - %ORANGE%[18]
-ItemDisplay[r19]:%WHITE%[ko]%ORANGE%<RUNA FAL>%WHITE%[lem] - %ORANGE%[19]
-ItemDisplay[r20]:%WHITE%[fal]%ORANGE%<RUNA LEM>%WHITE%[pul] - %ORANGE%[20]
-ItemDisplay[r21]:%WHITE%[lem]%ORANGE%<RUNA PUL>%WHITE%[um] - %ORANGE%[21]
-ItemDisplay[r22]:%WHITE%[pul]%ORANGE%<RUNA UM>%WHITE%[mal] - %ORANGE%[22]
-ItemDisplay[r23]:%WHITE%[um]%ORANGE%<RUNA MAL>%WHITE%[ist] - %ORANGE%[23]
-ItemDisplay[r24]:%WHITE%[mal]%ORANGE%<RUNA IST>%WHITE%[gul] - %ORANGE%[24]
-ItemDisplay[r25]:%WHITE%[ist]%ORANGE%<RUNA GUL>%WHITE%[vex] - %ORANGE%[25]
-ItemDisplay[r26]:%WHITE%[gul]%ORANGE%<RUNA VEX>%WHITE%[ohm] - %ORANGE%[26]
-ItemDisplay[r27]:%WHITE%[vex]%ORANGE%<RUNA OHM>%WHITE%[lo] - %ORANGE%[27]
-ItemDisplay[r28]:%WHITE%[ohm]%ORANGE%<RUNA LO>%WHITE%[sur] - %ORANGE%[28]
-ItemDisplay[r29]:%WHITE%[lo]%ORANGE%<RUNA SUR>%WHITE%[ber] - %ORANGE%[29]
-ItemDisplay[r30]:%WHITE%[sur]%ORANGE%<RUNA BER>%WHITE%[jah] - %ORANGE%[30]
-ItemDisplay[r31]:%WHITE%[ber]%ORANGE%<RUNA JAH>%WHITE%[cham] - %ORANGE%[31]
-ItemDisplay[r32]:%WHITE%[jah]%ORANGE%<RUNA CHAM>%WHITE%[zod] - %ORANGE%[32]
-ItemDisplay[r33]:%WHITE%[cham]%ORANGE%<RUNA ZOD>%WHITE%[ - ] - %ORANGE%[33]
+ItemDisplay[r01]:%WHITE%[ - ]%ORANGE%<EL>%WHITE%[eld] - %ORANGE%[1]
+ItemDisplay[r02]:%WHITE%[el]%ORANGE%<ELD>%WHITE%[tir] - %ORANGE%[2]
+ItemDisplay[r03]:%WHITE%[eld]%ORANGE%<TIR>%WHITE%[nef] - %ORANGE%[3]
+ItemDisplay[r04]:%WHITE%[tir]%ORANGE%<NEF>%WHITE%[eth] - %ORANGE%[4]
+ItemDisplay[r05]:%WHITE%[nef]%ORANGE%<ETH>%WHITE%[ith] - %ORANGE%[5]
+ItemDisplay[r06]:%WHITE%[eth]%ORANGE%<ITH>%WHITE%[tal] - %ORANGE%[6]
+ItemDisplay[r07]:%WHITE%[ith]%ORANGE%<TAL>%WHITE%[ral] - %ORANGE%[7]
+ItemDisplay[r08]:%WHITE%[tal]%ORANGE%<RAL>%WHITE%[ort] - %ORANGE%[8]
+ItemDisplay[r09]:%WHITE%[ral]%ORANGE%<ORT>%WHITE%[thul] - %ORANGE%[9]
+ItemDisplay[r10]:%WHITE%[ort]%ORANGE%<THUL>%WHITE%[amn] - %ORANGE%[10]
+ItemDisplay[r11]:%WHITE%[thul]%ORANGE%<AMN>%WHITE%[sol] - %ORANGE%[11]
+ItemDisplay[r12]:%WHITE%[amn]%ORANGE%<SOL>%WHITE%[shael] - %ORANGE%[12]
+ItemDisplay[r13]:%WHITE%[sol]%ORANGE%<SHAEL>%WHITE%[dol] - %ORANGE%[13]
+ItemDisplay[r14]:%WHITE%[shael]%ORANGE%<DOL>%WHITE%[hel] - %ORANGE%[14]
+ItemDisplay[r15]:%WHITE%[dol]%ORANGE%<HEL>%WHITE%[lo] - %ORANGE%[15]
+ItemDisplay[r16]:%WHITE%[hel]%ORANGE%<LO>%WHITE%[lum] - %ORANGE%[16]
+ItemDisplay[r17]:%WHITE%[lo]%ORANGE%<LUM>%WHITE%[ko] - %ORANGE%[17]
+ItemDisplay[r18]:%WHITE%[lum]%ORANGE%<KO>%WHITE%[fal] - %ORANGE%[18]
+ItemDisplay[r19]:%WHITE%[ko]%ORANGE%<FAL>%WHITE%[lem] - %ORANGE%[19]
+ItemDisplay[r20]:%WHITE%[fal]%ORANGE%<LEM>%WHITE%[pul] - %ORANGE%[20]
+ItemDisplay[r21]:%WHITE%[lem]%ORANGE%<PUL>%WHITE%[um] - %ORANGE%[21]
+ItemDisplay[r22]:%WHITE%[pul]%ORANGE%<UM>%WHITE%[mal] - %ORANGE%[22]
+ItemDisplay[r23]:%WHITE%[um]%ORANGE%<MAL>%WHITE%[ist] - %ORANGE%[23]
+ItemDisplay[r24]:%WHITE%[mal]%ORANGE%<IST>%WHITE%[gul] - %ORANGE%[24]
+ItemDisplay[r25]:%WHITE%[ist]%ORANGE%<GUL>%WHITE%[vex] - %ORANGE%[25]
+ItemDisplay[r26]:%WHITE%[gul]%ORANGE%<VEX>%WHITE%[ohm] - %ORANGE%[26]
+ItemDisplay[r27]:%WHITE%[vex]%ORANGE%<OHM>%WHITE%[lo] - %ORANGE%[27]
+ItemDisplay[r28]:%WHITE%[ohm]%ORANGE%<LO>%WHITE%[sur] - %ORANGE%[28]
+ItemDisplay[r29]:%WHITE%[lo]%ORANGE%<SUR>%WHITE%[ber] - %ORANGE%[29]
+ItemDisplay[r30]:%WHITE%[sur]%ORANGE%<BER>%WHITE%[jah] - %ORANGE%[30]
+ItemDisplay[r31]:%WHITE%[ber]%ORANGE%<JAH>%WHITE%[cham] - %ORANGE%[31]
+ItemDisplay[r32]:%WHITE%[jah]%ORANGE%<CHAM>%WHITE%[zod] - %ORANGE%[32]
+ItemDisplay[r33]:%WHITE%[cham]%ORANGE%<ZOD>%WHITE%[ - ] - %ORANGE%[33]
 //
 //CHARMS
 //
-ItemDisplay[cm1]:%DGREEN%(MALY TALIZMAN)
-ItemDisplay[cm2]:%DGREEN%(SREDNI TALIZMAN)
-ItemDisplay[cm3]:%DGREEN%(DUZY TALIZMAN)
+ItemDisplay[cm1]:%DGREEN%TALIZMAN
+ItemDisplay[cm2]:%DGREEN%TALIZMAN
+ItemDisplay[cm3]:%DGREEN%TALIZMAN
 
